@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+
+    .hero-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-ban-mob {
+        display: none;
+    }
+
+    .vision-banner img {
+        height: 50px;
+    }
+
+    .steps-wrapper span {
+        left: -0.5rem;
+    }
+
+    .signup-banner {
+        padding: 1rem;
+    }
+
+    .login-banner {
+        padding: 1rem;
+    }
+
+    .ls-form h4 {
+        font-size: 2rem;
+    }
+
+    .glass-content h4 {
+        font-size: 1.25rem;
+    }
+}

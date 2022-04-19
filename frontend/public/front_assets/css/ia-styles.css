@@ -1,0 +1,680 @@
+/* COMMON CSS STARTS */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Almarai', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.section-spacing {
+    padding: 90px 0;
+}
+
+.db-bg {
+    background-color: #102B49;
+}
+
+.lb-bg {
+    background-color: #59B0E2;
+}
+
+.brand-btn-lb {
+    background-color: #59B0E2;
+    border-color: #59B0E2;
+    color: #FFFFFF;
+}
+
+.brand-btn-db {
+    background-color: #102B49;
+    border-color: #102B49;
+    color: #FFFFFF;
+}
+
+.brand-btn-lb-outline {
+    background-color: transparent;
+    border-color: #59B0E2;
+    color: #FFFFFF;
+}
+
+.text-black {
+    color: #212832;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-dark-blue {
+    color: #102B49;
+}
+
+.text-grey {
+    color: #D5D5D5;
+}
+
+/* COMMON CSS ENDS */
+
+/* HEADER CSS STARTS */
+
+.nav-spacing {
+    padding: 1.5rem 1.5rem;
+}
+
+.navbar-link {
+    color: #FFFFFF;
+}
+
+.nav-btn {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+.nav-dark-bg {
+    background-color: #102B49 !important;
+    box-shadow: 0 10px 15px 0 rgb(0 0 0 / 16%);
+    -webkit-box-shadow: 0 10px 15px rgb(0 0 0 / 16%);
+}
+
+/* HEADER CSS ENDS */
+
+/* MODAL CSS STARTS */
+
+.popup-close {
+    margin-left: -1rem !important;
+}
+
+.popup-header {
+    background-color: #102B49;
+    color: #FFFFFF;
+    border: none !important;
+}
+
+.popup-content {
+    border: none !important;
+}
+
+.popup-body {
+    padding: 0 !important;
+}
+
+.nid-popup {
+    background-image: url(../images/image-7.jpeg);
+    padding: 3rem 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.nid-popup-content h2 {
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.nid-popup-content h5 {
+    margin-top: 0.5rem;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+/* MODAL CSS ENDS */
+
+/* HERO SECTION CSS STARTS */
+
+.hero-spacing {
+    padding-top: 50px;
+}
+
+.hero-content {
+    text-transform: capitalize;
+    padding-top: 6rem;
+    padding-right: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.hero-content h1 {
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.hero-content p {
+    margin-top: 2rem;
+    color: #D5D5D5;
+    text-align: right;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: 32rem;
+    object-fit: contain;
+}
+
+.bg-dot {
+    background-image: url('../images/image-2.png');
+    background-position: bottom bottom;
+    background-size: cover;
+}
+
+.hero-tab {
+    margin-top: -3rem;
+    z-index: 1;
+}
+
+.hero-white-wrapper {
+    padding: 1rem;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+
+.achievement h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #212832;
+    text-align: right;
+}
+
+.hero-blue-wrapper {
+    padding: 1rem;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    border-radius: 10px;
+    background-color: #102B49;
+    margin-bottom: 1.5rem;
+}
+
+.achievement-blue {
+    color: #102B49;
+}
+
+.achievement-blue h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.hero-blue-wrapper-title h4 {
+    color: #FFFFFF;
+}
+
+.achievement i {
+    color: #FFFFFF;
+}
+
+.achievement i, .achievement-blue i {
+     font-size: 4rem;
+     float: left;
+}
+
+i.achievement-star {
+    color: #FFCE31;
+}
+
+i.achievement-smile {
+    color: #FFFFFF;
+}
+
+i.achievement-diamond {
+    color: #59B0E2;
+}
+
+.hero-white-wrapper-title h4 {
+    text-align: right;
+}
+
+.hero-blue-wrapper-title h4 {
+    text-align: right;
+}
+
+/* HERO SECTION CSS ENDS */
+
+/* CHOOSE VEHICLE TYPE SECTION CSS STARTS */
+
+.city-bg {
+    background-image: url('../images/image-3.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-title h6 {
+    color: #59B0E2;
+}
+
+.big-title {
+    margin-bottom: 2rem;
+}
+
+.big-title h3 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.vt-wrapper {
+    padding: 2rem;
+    border: 1px solid #59B0E2;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    margin-bottom: 1rem;
+}
+
+.vt-wrapper i {
+    font-size: 4rem;
+    text-align: center;
+    color: #59B0E2;
+    display: block;
+}
+
+.vt-wrapper h3 {
+    text-align: center;
+    color: #59B0E2;
+    font-weight: 700;
+}
+
+.vt-wrapper:hover {
+    background-color: #102B49;
+}
+
+.vt-wrapper:hover i {
+    color: #FFFFFF;
+}
+
+/* CHOOSE VEHICLE TYPE SECTION CSS ENDS */
+
+
+/* CHOOSE US SECTION CSS STARTS */
+
+.features-border {
+    border-bottom: 2px solid #D5D5D5;
+    margin-bottom: 2rem;
+}
+
+.features-icon i {
+    color: #59B0E2;
+    font-size: 3rem;
+}
+
+.features-detail h5 {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: right;
+}
+
+.features-detail p {
+    color: #D5D5D5;
+    text-align: right;
+}
+
+/* CHOOSE US SECTIONS CSS ENDS */
+
+/* STEPS SECTION CSS STARTS */
+
+.steps-wrapper {
+    padding: 1rem;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin-bottom: 2rem;
+    transition: 0.5s ease;
+}
+
+.steps-wrapper:hover {
+    background-color: #102B49;
+}
+
+.steps-wrapper:hover h5 {
+    color: #FFFFFF;
+}
+
+.steps-wrapper:hover span {
+    background-color: #59B0E2;
+}
+
+.steps-wrapper img {
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.steps-wrapper span {
+    background-color: #102B49;
+    color: #FFFFFF;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    text-align: center;
+}
+
+.steps-wrapper h5 {
+    text-align: center;
+    font-weight: 700;
+    color: #212832;
+}
+
+/* STEPS SECTION CSS ENDS */
+
+/* SAUDI CENTRAL BANK SECTION CSS STARTS */
+
+.parallax {
+    background-image: url('../images/image-5.jpg');
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.scb-row {
+    padding: 50px 0;
+}
+
+.scb-banner img {
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.vision-banner {
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+}
+
+.vision-banner img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* SAUDI CENTRAL BANK SECTION CSS ENDS */
+
+/* PARTNER SECTION CSS STARTS */
+
+.partner-card {
+    padding: 1rem;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 2rem;
+    transition: 0.5s ease;
+}
+
+.partner-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* PARTNER SECTION CSS ENDS */
+
+/* CONTACT SECTION CSS STARTS */
+
+.contact-para p {
+    margin-bottom: 0;
+}
+
+/* CONTACT SECTION CSS ENDS */
+
+/* LOGIN & SIGNUP PAGE CSS STARTS */
+
+.login-banner {
+    background-image: url(../images/image-8.jpeg);
+    padding: 8rem;
+    background-size: cover;
+}
+
+.signup-banner {
+    background-image: url(../images/image-9.jpeg);
+    padding: 8rem;
+    background-size: cover;
+}
+
+.glass-logo img {
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    margin-top: 50px;
+}
+
+.glass-content h4 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ls-form {
+    padding: 2.25rem;
+}
+
+.ls-form h4 {
+    text-align: right;
+    padding-top: 8rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #102B49;
+}
+
+.ls-form p {
+    text-align: right;
+    color: #D5D5D5;
+}
+
+.fp-link a {
+    color: #FFFFFF;
+}
+
+.ls-bottom-link p {
+    text-align: center;
+}
+
+.ls-bottom-link a {
+    color: #FFFFFF;
+}
+
+
+/* LOGIN PAGE CSS ENDS */
+
+/* USER INFO PAGE CSS STARTS */
+
+.user-info {
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 2rem;
+    /* display: flex; */
+    align-items: center;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+}
+
+.user-info img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.user-data small {
+    display: flex;
+    color: #59B0E2;
+}
+
+.user-data {
+    margin-right: 1rem;
+}
+
+.user-data h4, .user-data h5, .user-data h6 {
+    text-align: right;
+    margin-bottom: 0.5rem;
+    color: #102B49;
+}
+
+.info-banner-content h3 {
+    color: #102B49;
+    font-weight: 600;
+    text-align: right;
+}
+
+.info-banner-content h5 {
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.vehicle-info-wrapper {
+    background-color: #102B49;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    -webkit-box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    padding: 1rem 2rem 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.vehicle-wrapper-image {
+    position: absolute;
+    bottom: 4rem;
+    right: -2rem;
+}
+
+.vehicle-wrapper-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.vehicle-data h6 {
+    color: #59B0E2;
+}
+
+.vehicle-data h5{
+    color: #FFFFFF;
+}
+
+.vehicle-wrapper-btn {
+    margin-bottom: 1rem;
+}
+
+/* USER INFO PAGE CSS ENDS */
+
+/* FOOTER CSS STARTS */
+
+footer {
+    padding: 50px 0 20px;
+    background-image: url('../images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-title h4 {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    text-align: right;
+}
+
+.footer-social {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.footer-list li a, .credits a  {
+    color: #59B0E2;
+    transition: 0.3s ease;
+}
+
+.footer-list li {
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+
+.footer-list i {
+    color: #FFFFFF;
+}
+
+.footer-list li a:hover, .credits a:hover {
+    color: #D5D5D5;
+}
+
+.footer-social i {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.footer-contact li {
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.footer-contact a {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+.footer-contact a:hover {
+    color: #D5D5D5;
+}
+
+.footer-contact i {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.cards img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 25px;
+    object-fit: contain;
+    margin-top: 2rem;
+    margin-bottom: 1rem ;
+}
+
+.credits {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.app-image img {
+    width: 120px;
+    float: right;
+}
